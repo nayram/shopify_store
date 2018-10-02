@@ -7,7 +7,10 @@ new shop and also to get​ the first 10 products for a shop.
 
 The database is an sqlitedb.
 
+Run `touch database\database.sqlite`
+
 Run `php artisan migrate`
+
 
 ### Get Listed Products On Shopify.
 

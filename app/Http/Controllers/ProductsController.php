@@ -33,7 +33,7 @@ class ProductsController extends Controller
         }
       }
 
-      return Product::all();
+      return response()->json(['kudobuzz'=>['products'=>Product::all()]]);
     }
 
 
@@ -64,7 +64,7 @@ class ProductsController extends Controller
     public function getKudobuzzStore()
     {
       // code...
-      return response()->json(['data'=>Product::all()]); 
+      return response()->json(['data'=>Product::all()]);
     }
 
 

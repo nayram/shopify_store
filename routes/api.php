@@ -18,7 +18,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 
-Route::get('products','ProductsController@getProducts');
-Route::post('products','ProductsController@saveProducts');
-Route::post('product/save','ProductsController@store');
-Route::get('products/kudobuzz','ProductsController@getKudobuzzStore');
+Route::get('shopify/products','ProductsController@getProducts');
+Route::post('kudobuzz/products','ProductsController@saveProducts');
+Route::post('shopify/product/add','ProductsController@store');
+Route::get('kudobuzz/product','ProductsController@getKudobuzzStore');

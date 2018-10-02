@@ -5,7 +5,7 @@ new shop and also to get​ the first 10 products for a shop.
 
 ## API Documentation
 
-The database is an sqlitedb.
+The database is sqlite.
 
 Run `touch database\database.sqlite`
 
